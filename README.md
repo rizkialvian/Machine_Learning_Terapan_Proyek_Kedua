@@ -44,7 +44,9 @@ Beberapa ringkasan solusi yang dapat penulis lakukan diantaranya adalah sebagai 
     Merekomendasikan buku berdasarkan riwayat transaksi pengguna (peringkat) dan menggunakan model pembelajaran mesin SVD untuk memprediksi dan menghitung peringkat yang diberikan pengguna ke buku lain. Kelemahan dari Collaborative filtering adalah tidak dapat merekomendasikan item tanpa riwayat transaksi.
     
 ## Data Understanding
-Data yang penulis gunakan diperoleh dari situs web Kaggle, yaitu salah satu situs yang terkenal di dunia Data Science dan Machine Learning yang terdiri dari lebih dari 6000 dataset yang dapat diunduh dalam format CSV. Ringkasan data yang digunakan adalah sebagai berikut:
+Data yang penulis gunakan diperoleh dari situs web Kaggle, yaitu salah satu situs yang terkenal di dunia Data Science dan Machine Learning yang terdiri dari lebih dari 6000 dataset yang dapat diunduh dalam format CSV. Data yang digunakan adalah 'Book Recommendation Dataset', dimana terdapat 3 data didalamnya yaitu books, ratings, dan users yang masing-masing data disimpan dalam format CSV.
+
+Ringkasan singkat data yang digunakan adalah sebagai berikut:
 
 | Info | Keterangan |
 | ---- | ---------- |
@@ -54,6 +56,20 @@ Data yang penulis gunakan diperoleh dari situs web Kaggle, yaitu salah satu situ
 | Usability | 10.00 |
 | Lisensi | CC0: Public Domain |
 | Ukuran data | 107 MB |
+
+* Data Books
+Didalam data books.csv terdapat informasi Book-Title, Book-Author, Year-Of-Publication, Image-URL-S, Image-URL-M, Image-URL-L, dan Publisher.
+
+| ISBN |	Book-Title |	Book-Author |	Year-Of-Publication |	Publisher |	Image-URL-S |	Image-URL-M |	Image-URL-L |
+| ---- | ---------- | ----------- | ------------------- | --------- | ----------- | ----------- | ----------- |
+|	0195153448 |	Classical Mythology	| Mark P. O. Morford |	2002	| Oxford University Press	| http://images.amazon.com/images/P/0195153448.0...	| http://images.amazon.com/images/P/0195153448.0...	| http://images.amazon.com/images/P/0195153448.0... |
+|	0002005018	| Clara Callan	| Richard Bruce Wright	| 2001	| HarperFlamingo Canada	| http://images.amazon.com/images/P/0002005018.0...	| http://images.amazon.com/images/P/0002005018.0...	| http://images.amazon.com/images/P/0002005018.0... |
+|	0060973129	| Decision in Normandy	| Carlo D'Este	| 1991	| HarperPerennial	| http://images.amazon.com/images/P/0060973129.0...	| http://images.amazon.com/images/P/0060973129.0...	| http://images.amazon.com/images/P/0060973129.0... |
+|	0374157065	| Flu: The Story of the Great Influenza Pandemic...	| Gina Bari Kolata	| 1999	| Farrar Straus Giroux	| http://images.amazon.com/images/P/0374157065.0...	| http://images.amazon.com/images/P/0374157065.0...	| http://images.amazon.com/images/P/0374157065.0... |
+|	0393045218	| The Mummies of Urumchi	| E. J. W. Barber	| 1999	| W. W. Norton Company	| http://images.amazon.com/images/P/0393045218.0...	| http://images.amazon.com/images/P/0393045218.0...	| http://images.amazon.com/images/P/0393045218.0... |
+
+
+* 
 
 ## Data Preparation
 
