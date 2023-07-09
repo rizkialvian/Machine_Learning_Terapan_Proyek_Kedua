@@ -103,6 +103,16 @@ Pada proses handling missing value, misalnya data umur ada yang null, data ratin
 Melakukan encoding data pada UserID dan Book Title supaya dapat dibaca oleh model dengan baik.
 
 ## Modeling
+### Popularity based recommendation
+Digunakan untuk menggabungkan informasi rata-rata rating dan jumlah rating yang diterima per buku dengan menerapkan weighted rating, kemudian memilih 10 produk terbaik. 
+
+Persamaan weighted rating
+
+![Persamaan weighted rating]()
+
+### Model-Based Collaborative filtering Recommendation
+
+Akan dilakukan training data user buku dengan model SVD dari library Surprise yang selanjutnya 10 buku dengan prediksi rating tertinggi akan diurutkan. Hasil rekomendasinya sebagai berikut:
 
 ## Evaluation
 
