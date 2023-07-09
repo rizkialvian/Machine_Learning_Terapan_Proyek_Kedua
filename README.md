@@ -147,6 +147,13 @@ Keterangan:
 ​* Ai : nilai data aktual ke-i
 * Fi : nilai data peramalan ke-i
 
+### Perolehan RMSE dan MAE
+Hasil perolehan Root Mean Squared Error (RMSE) dan Mean Absolute Error (MAE) adalah sebagai berikut:
+
+![Perolehan RMSE dan MAE](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Kedua/blob/f9f01e7155c4199cccbafcae27adb3b605e8d469/img/nilai%20mae%20dan%20rmse.PNG?raw=true)
+
+Diperoleh nilai rata-rata RMSE sebesar 1,2671 dan nilai rata-rata MAE sebesar 1,6387. Sehingga dapat disimpulkan bahwa model ini nilai error cukup kecil, yang berarti model tersebut dapat dikatakan baik. Hal ini dibuktikan juga dengan hasil rekomendasi buku yang cukup baik dan sesuai kategori.
+
 ## Referensi
 
 [1] [Fajar, R. P. A. L., Wiguna, A. C., Oktari, D., & de Eloisa Tobing, J. A. (2022). Problematika Literasi Membaca Pada Generasi Penerus Bangsa Dalam Menghadapi Abad 21. Naturalistic: Jurnal Kajian dan Penelitian Pendidikan dan Pembelajaran, 7(1), 1478-1489.](http://www.journal.umtas.ac.id/index.php/naturalistic/article/view/2172)
