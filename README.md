@@ -58,18 +58,40 @@ Ringkasan singkat data yang digunakan adalah sebagai berikut:
 | Ukuran data | 107 MB |
 
 * Data Books
-Didalam data books.csv terdapat informasi Book-Title, Book-Author, Year-Of-Publication, Image-URL-S, Image-URL-M, Image-URL-L, dan Publisher.
+Data books terdiri dari 271360 baris dan 8 kolom. Didalam data books.csv terdapat informasi Book-Title, Book-Author, Year-Of-Publication, Image-URL-S, Image-URL-M, Image-URL-L, dan Publisher.
 
 | ISBN |	Book-Title |	Book-Author |	Year-Of-Publication |	Publisher |	Image-URL-S |	Image-URL-M |	Image-URL-L |
 | ---- | ---------- | ----------- | ------------------- | --------- | ----------- | ----------- | ----------- |
 |	0195153448 |	Classical Mythology	| Mark P. O. Morford |	2002	| Oxford University Press	| http://images.amazon.com/images/P/0195153448.0...	| http://images.amazon.com/images/P/0195153448.0...	| http://images.amazon.com/images/P/0195153448.0... |
 |	0002005018	| Clara Callan	| Richard Bruce Wright	| 2001	| HarperFlamingo Canada	| http://images.amazon.com/images/P/0002005018.0...	| http://images.amazon.com/images/P/0002005018.0...	| http://images.amazon.com/images/P/0002005018.0... |
 |	0060973129	| Decision in Normandy	| Carlo D'Este	| 1991	| HarperPerennial	| http://images.amazon.com/images/P/0060973129.0...	| http://images.amazon.com/images/P/0060973129.0...	| http://images.amazon.com/images/P/0060973129.0... |
-|	0374157065	| Flu: The Story of the Great Influenza Pandemic...	| Gina Bari Kolata	| 1999	| Farrar Straus Giroux	| http://images.amazon.com/images/P/0374157065.0...	| http://images.amazon.com/images/P/0374157065.0...	| http://images.amazon.com/images/P/0374157065.0... |
+|	0374157065	| Flu: The Story of the Great Influenza Pandemic	| Gina Bari Kolata	| 1999	| Farrar Straus Giroux	| http://images.amazon.com/images/P/0374157065.0...	| http://images.amazon.com/images/P/0374157065.0...	| http://images.amazon.com/images/P/0374157065.0... |
 |	0393045218	| The Mummies of Urumchi	| E. J. W. Barber	| 1999	| W. W. Norton Company	| http://images.amazon.com/images/P/0393045218.0...	| http://images.amazon.com/images/P/0393045218.0...	| http://images.amazon.com/images/P/0393045218.0... |
+| ... | ... | ... | ... | ... | ... | ... | ... |
 
+* Data Ratings
+Data ratings terdiri dari 1149780 baris dan 3 kolom. Didalam data ratings.csv terdapat informasi User-ID, ISBN, dan Book-Rating.
 
-* 
+| User-ID	| ISBN	| Book-Rating |
+| ------- | ---- | ----------- |
+| 276725	| 034545104X	| 0 |
+| 276726	| 0155061224	| 5 |
+| 276727	| 0446520802	| 0 |
+| 276729	| 052165615X	| 3 |
+| 276729	| 0521795028	| 6 |
+| ... | ... | ... |
+
+* Data Users
+Data users terdiri dari 278858 baris dan 3 kolom. Didalam data users.csv terdapat informasi User-ID,	Location, dan	Age.
+
+| User-ID	| Location	| Age |
+| ------- | -------- | --- |
+| 1	| nyc, new york, usa	| NaN |
+| 2	| stockton, california, usa	| 18.0 |
+| 3	| moscow, yukon territory, russia	| NaN |
+| 4	| porto, v.n.gaia, portugal	| 17.0 |
+| 5	| farnborough, hants, united kingdom	| NaN |
+| ... | ... | ... |
 
 ## Data Preparation
 
