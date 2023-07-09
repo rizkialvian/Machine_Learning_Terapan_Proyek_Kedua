@@ -94,6 +94,13 @@ Data users terdiri dari 278858 baris dan 3 kolom. Didalam data users.csv terdapa
 | ... | ... | ... |
 
 ## Data Preparation
+Pada tahapan ini, penulis akan melakukan proses transformasi pada data sehingga menjadi bentuk yang cocok dalam proses pemodelan. Terdapat beberapa tahapan yang perlu dilakukan pada data preparation, diantaranya adalah sebagai berikut:
+
+* Handling Missing Value
+Pada proses handling missing value, misalnya data umur ada yang null, data rating bernilai 0. Caranya adalah dengan menghapus atau mengganti data tersebut dengan nilai lain.
+
+* Encoding
+Melakukan encoding data pada UserID dan Book Title supaya dapat dibaca oleh model dengan baik.
 
 ## Modeling
 
