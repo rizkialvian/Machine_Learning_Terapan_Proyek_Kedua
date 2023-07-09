@@ -1,5 +1,7 @@
 # Laporan Proyek Machine Learning - Rizki Alvian
 
+## Sistem Rekomendasi Buku Berdasarkan Preferensi dan Rating Pengguna
+
 ![Ilustrasi Buku](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Kedua/blob/93f920a10aae001caeda1b92694bccbaeb2fdafa/img/book.png?raw=true)
 
 ## Project Overview
