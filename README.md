@@ -44,6 +44,16 @@ Beberapa ringkasan solusi yang dapat penulis lakukan diantaranya adalah sebagai 
     Merekomendasikan buku berdasarkan riwayat transaksi pengguna (peringkat) dan menggunakan model pembelajaran mesin SVD untuk memprediksi dan menghitung peringkat yang diberikan pengguna ke buku lain. Kelemahan dari Collaborative filtering adalah tidak dapat merekomendasikan item tanpa riwayat transaksi.
     
 ## Data Understanding
+Data yang penulis gunakan diperoleh dari situs web Kaggle, yaitu salah satu situs yang terkenal di dunia Data Science dan Machine Learning yang terdiri dari lebih dari 6000 dataset yang dapat diunduh dalam format CSV. Ringkasan data yang digunakan adalah sebagai berikut:
+
+| Info | Keterangan |
+| ---- | ---------- |
+| Sumber | Kaggle |
+| Nama data | Book Recommendation Dataset |
+| Link | https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset |
+| Usability | 10.00 |
+| Lisensi | CC0: Public Domain |
+| Ukuran data | 107 MB |
 
 ## Data Preparation
 
