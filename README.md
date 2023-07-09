@@ -1,1 +1,2 @@
-# Machine_Learning_Terapan_Proyek_Kedua
+# Laporan Proyek Machine Learning - Rizki Alvian
+
