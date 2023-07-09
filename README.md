@@ -119,12 +119,12 @@ Keterangan:
 
 Berikut ini adalah hasil rekomendasi dengan menerapkan weighted rating:
 
-![Hasil Popularity based recommendation]()
+![Hasil Popularity based recommendation](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Kedua/blob/57ebbe98f85beb65d6756fece18036324e35002b/img/hasil%20popularity%20based%20recommendation.PNG?raw=true)
 
 ### Model-Based Collaborative filtering Recommendation
 Dilakukan training data user buku dengan model SVD dari library Surprise yang selanjutnya 10 buku dengan prediksi rating tertinggi akan diurutkan. Berikut ini adalah hasil rekomendasi yang diperoleh:
 
-![Hasil Model-Based Collaborative filtering Recommendation]()
+![Hasil Model-Based Collaborative filtering Recommendation](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Kedua/blob/57ebbe98f85beb65d6756fece18036324e35002b/img/hasil%20model%20based%20collaborative%20filtering%20recommendation.PNG?raw=true)
 
 ## Evaluation
 ### Root Mean Squared Error (RMSE)
@@ -155,4 +155,4 @@ Keterangan:
 
 [3] [Zhang, S., Yao, L., Sun, A., & Tay, Y. (2019). Deep learning based recommender system: A survey and new perspectives. ACM computing surveys (CSUR), 52(1), 1-38.](https://dl.acm.org/doi/abs/10.1145/3285029)
 
-[Rymmai, R. G., & Saleema, J. S. (2017). Book Recommendation using Cosine Similarity. International Journal of Advanced Research in Computer Science, 8(3).](https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=09765697&AN=122961231&h=g9lStjqi8Q3om0hiUlFYXZmCQuFHM8Lt7Sa%2BQ%2BESIfbbZN7vJ9fF6gfgpSdPINcHE57Jt9aInCH80DRuOmc1Mg%3D%3D&crl=c)
+[4] [Rymmai, R. G., & Saleema, J. S. (2017). Book Recommendation using Cosine Similarity. International Journal of Advanced Research in Computer Science, 8(3).](https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=09765697&AN=122961231&h=g9lStjqi8Q3om0hiUlFYXZmCQuFHM8Lt7Sa%2BQ%2BESIfbbZN7vJ9fF6gfgpSdPINcHE57Jt9aInCH80DRuOmc1Mg%3D%3D&crl=c)
