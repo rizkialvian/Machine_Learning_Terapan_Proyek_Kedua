@@ -108,13 +108,44 @@ Digunakan untuk menggabungkan informasi rata-rata rating dan jumlah rating yang 
 
 Persamaan weighted rating
 
-![Persamaan weighted rating]()
+![Persamaan weighted rating](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Kedua/blob/7d72cdf934c3d3cf25b01ee4a94cc44c4d04f173/img/persamaan%20weighted%20rating.PNG?raw=true)
+
+Keterangan:
+* W : weighted rating
+* v : jumlah rating diterima per buku
+* R : rata-rata rating per buku
+* C : rata-rata rating seluruh buku
+* m : minimal jumlah rating yang diterima
+
+Berikut ini adalah hasil rekomendasi dengan menerapkan weighted rating:
+
+![Hasil Popularity based recommendation]()
 
 ### Model-Based Collaborative filtering Recommendation
+Dilakukan training data user buku dengan model SVD dari library Surprise yang selanjutnya 10 buku dengan prediksi rating tertinggi akan diurutkan. Berikut ini adalah hasil rekomendasi yang diperoleh:
 
-Akan dilakukan training data user buku dengan model SVD dari library Surprise yang selanjutnya 10 buku dengan prediksi rating tertinggi akan diurutkan. Hasil rekomendasinya sebagai berikut:
+![Hasil Model-Based Collaborative filtering Recommendation]()
 
 ## Evaluation
+### Mean Absolute Error (MAE)
+Mean Absolute Error adalah rata-rata selisih mutlak nilai aktual dengan nilai prediksi. MAE digunakan untuk mengukur keakuratan suatu model statistik dalam melakukan prediksi.
+
+![MAE]()
+
+Keterangan:
+* n : ukuran sampel
+​* Ai : nilai data aktual ke-i
+* Fi : nilai data peramalan ke-i
+
+### Root Mean Squared Error (RMSE)
+Root Mean Square Error adalah  metode pengukuran dengan mengukur perbedaan nilai dari prediksi sebuah model sebagai estimasi atas nilai yang diobservasi. Keakuratan metode estimasi kesalahan pengukuran ditandai dengan adanya nilai RMSE yang kecil. Metode estimasi yang mempunyai Root Mean Square Error (RMSE) lebih kecil dikatakan lebih akurat daripada metode estimasi yang mempunyai Root Mean Square Error (RMSE) lebih besar
+
+![RMSE]()
+
+Keterangan:
+* n : ukuran sampel
+​* At : nilai data aktual ke-t
+* Ft : nilai data peramalan ke-t
 
 ## Referensi
 
