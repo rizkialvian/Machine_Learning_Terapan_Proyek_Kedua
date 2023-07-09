@@ -57,7 +57,7 @@ Ringkasan singkat data yang digunakan adalah sebagai berikut:
 | Lisensi | CC0: Public Domain |
 | Ukuran data | 107 MB |
 
-* Data Books
+### Overview Data Books
 Data books terdiri dari 271360 baris dan 8 kolom. Didalam data books.csv terdapat informasi Book-Title, Book-Author, Year-Of-Publication, Image-URL-S, Image-URL-M, Image-URL-L, dan Publisher.
 
 | ISBN |	Book-Title |	Book-Author |	Year-Of-Publication |	Publisher |	Image-URL-S |	Image-URL-M |	Image-URL-L |
@@ -69,7 +69,7 @@ Data books terdiri dari 271360 baris dan 8 kolom. Didalam data books.csv terdapa
 |	0393045218	| The Mummies of Urumchi	| E. J. W. Barber	| 1999	| W. W. Norton Company	| http://images.amazon.com/images/P/0393045218.0...	| http://images.amazon.com/images/P/0393045218.0...	| http://images.amazon.com/images/P/0393045218.0... |
 | ... | ... | ... | ... | ... | ... | ... | ... |
 
-* Data Ratings
+### Overview Data Ratings
 Data ratings terdiri dari 1149780 baris dan 3 kolom. Didalam data ratings.csv terdapat informasi User-ID, ISBN, dan Book-Rating.
 
 | User-ID	| ISBN	| Book-Rating |
@@ -81,7 +81,7 @@ Data ratings terdiri dari 1149780 baris dan 3 kolom. Didalam data ratings.csv te
 | 276729	| 0521795028	| 6 |
 | ... | ... | ... |
 
-* Data Users
+### Overview Data Users
 Data users terdiri dari 278858 baris dan 3 kolom. Didalam data users.csv terdapat informasi User-ID,	Location, dan	Age.
 
 | User-ID	| Location	| Age |
