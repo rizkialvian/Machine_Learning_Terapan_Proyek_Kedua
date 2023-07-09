@@ -13,10 +13,16 @@ Sistem rekomendasi merupakan solusi yang dapat mengatasi masalah pencarian buku 
 
 ## Business Understanding
 ### Problem Statements
+Berdasarkan project overview diatas, penulis menguraikan problem statement sebagai berikut:
 * Bagaimana membangun sebuah sistem rekomendasi berdasarkan data dari kumpulan buku yang tersedia?
+* Bagaimana mengolah data buku, pengguna, dan ulasan sehingga dapat digunakan sebagai informasi dalam sistem rekomendasi?
+* Bagaimana akurasi yang diperoleh dari sistem rekomendasi yang telah dibangun?
 
 ### Goals
-* Mengetahui
+Berdasarkan problem statement diatas, penulis menguraikan goals sebagai berikut:
+* Dapat mengetahui proses membangun sistem rekomendasi berdasarkan data dari kumpulan buku yang tersedia.
+* Dapat mengetahui proses mengolah data buku, pengguna, dan ulasan dalam sistem rekomendasi.
+* Dapat mengetahui akrasi sistem rekomendasi yang telah dibangun.
 
 ## Data Understanding
 
