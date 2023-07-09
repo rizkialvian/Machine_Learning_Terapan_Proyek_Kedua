@@ -26,6 +26,20 @@ Berdasarkan problem statement diatas, penulis menguraikan goals sebagai berikut:
 * Dapat mengetahui proses mengolah data buku, pengguna, dan ulasan dalam sistem rekomendasi.
 * Dapat mengetahui akrasi sistem rekomendasi yang telah dibangun.
 
+### Solution Approach
+Beberapa ringkasan solusi yang dapat penulis lakukan diantaranya adalah sebagai berikut:
+* Pre-processing data, pada tahapan ini akan dilakukan analisis karakteristik dari data books, users, dan ratings sebelum masuk tahap preparation.
+* Preparation data, pada tahapan ini akan dilakukan pemilihan fitur-fitur dari data yang diperlukan, seperti mengisi data kosong pada publisher dan author pada data buku, menghapus data dengan rating 0 pada data rating, dan mengisi missing value menggunakan modus Age pada data user.
+* Solusi yang diberikan bergantung dari hasil rekomendasi yang ingin dicapai.
+  * Popularity based recommendation
+    Sistem rekomendasi berbasis popularitas bekerja dengan tren. Misalnya, jika Anda memiliki produk yang biasanya dibeli oleh semua pengguna baru, produk tersebut kemungkinan besar akan menyarankan item tersebut kepada pengguna yang baru saja mendaftar. Teknik yang digunakan adalah weighted scoring.
+    
+  * Singular Value Decomposition
+    Salah satu cara untuk mengatasi masalah skalabilitas dan ketersebaran yang ditimbulkan oleh collaborative filtering (CF) adalah dengan memanfaatkan model faktor laten untuk menangkap kesamaan antara pengguna dan item. Metrik yang umum adalah root mean square error (RMSE). Semakin rendah RMSE, semakin baik kinerjanya.
+    
+  * Model-Based Collaborative filtering Recommendation
+    Merekomendasikan buku berdasarkan riwayat transaksi pengguna (peringkat) dan menggunakan model pembelajaran mesin SVD untuk memprediksi dan menghitung peringkat yang diberikan pengguna ke buku lain. Kelemahan dari Collaborative filtering adalah tidak dapat merekomendasikan item tanpa riwayat transaksi.
+    
 ## Data Understanding
 
 ## Data Preparation
