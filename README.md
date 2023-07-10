@@ -116,7 +116,18 @@ Keterangan:
 
 Berikut ini adalah hasil rekomendasi dengan menerapkan weighted rating:
 
-![Hasil Popularity based recommendation](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Kedua/blob/57ebbe98f85beb65d6756fece18036324e35002b/img/hasil%20popularity%20based%20recommendation.PNG?raw=true)
+| No | Book Title	| Weighted Rating |
+| -- | ---------- | --------------- |
+| 1 | Harry Potter and the Chamber of Secrets Postcard Book	| 9.682203 |
+| 2 | Postmarked Yesteryear: 30 Rare Holiday Postcards	| 9.619622 |
+| 3 | Dilbert: A Book of Postcards	| 9.603672 |
+| 4 | The Two Towers (The Lord of the Rings, Part 2)	| 9.557596 |
+| 5 | The Giving Tree	| 9.547958 |
+| 6 | The Sneetches and Other Stories	| 9.505509 |
+| 7 | Fox in Socks (I Can Read It All by Myself Beginner Books)	| 9.503443 |
+| 8 | Uncle John's Supremely Satisfying Bathroom Reader (Uncle John's Bathroom Reader)	| 9.450565 |
+| 9 | Natural California: A Postcard Book	| 9.450565 |
+| 10 | Calvin and Hobbes	| 9.425196 |
 
 ### Model-Based Collaborative filtering Recommendation
 Dilakukan training data user buku dengan model SVD dari library Surprise yang selanjutnya 10 buku dengan prediksi rating tertinggi akan diurutkan. Berikut ini adalah hasil rekomendasi yang diperoleh:
