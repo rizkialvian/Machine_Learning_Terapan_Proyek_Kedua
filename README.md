@@ -169,9 +169,13 @@ Keterangan:
 ### Perolehan RMSE dan MAE
 Hasil perolehan Root Mean Squared Error (RMSE) dan Mean Absolute Error (MAE) adalah sebagai berikut:
 
-![Perolehan RMSE dan MAE](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Kedua/blob/f9f01e7155c4199cccbafcae27adb3b605e8d469/img/nilai%20mae%20dan%20rmse.PNG?raw=true)
+| Nama | Nilai |
+| ---- | ----- |
+| RMSE | 1,2671 |
+| MAE | 1,6387 |
 
-Diperoleh nilai rata-rata RMSE sebesar 1,2671 dan nilai rata-rata MAE sebesar 1,6387. Sehingga dapat disimpulkan bahwa model ini nilai error cukup kecil, yang berarti model tersebut dapat dikatakan baik. Hal ini dibuktikan juga dengan hasil rekomendasi buku yang cukup baik dan sesuai kategori.
+## Kesimpulan
+Dari tahapan-tahapan yang sudah dilakukan sebelumnya, diperoleh nilai rata-rata RMSE sebesar 1,2671 dan nilai rata-rata MAE sebesar 1,6387. Sehingga dapat disimpulkan bahwa model ini nilai error cukup kecil, yang berarti model tersebut dapat dikatakan baik. Hal ini dibuktikan juga dengan hasil rekomendasi buku yang cukup baik dan sesuai kategori.
 
 ## Referensi
 
