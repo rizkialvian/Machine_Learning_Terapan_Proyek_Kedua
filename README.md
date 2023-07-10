@@ -67,7 +67,6 @@ Data books terdiri dari 271360 baris dan 8 kolom. Didalam data books.csv terdapa
 |	0060973129	| Decision in Normandy	| Carlo D'Este	| 1991	| HarperPerennial	| http://images.amazon.com/images/P/0060973129.0...	| http://images.amazon.com/images/P/0060973129.0...	| http://images.amazon.com/images/P/0060973129.0... |
 |	0374157065	| Flu: The Story of the Great Influenza Pandemic	| Gina Bari Kolata	| 1999	| Farrar Straus Giroux	| http://images.amazon.com/images/P/0374157065.0...	| http://images.amazon.com/images/P/0374157065.0...	| http://images.amazon.com/images/P/0374157065.0... |
 |	0393045218	| The Mummies of Urumchi	| E. J. W. Barber	| 1999	| W. W. Norton Company	| http://images.amazon.com/images/P/0393045218.0...	| http://images.amazon.com/images/P/0393045218.0...	| http://images.amazon.com/images/P/0393045218.0... |
-| ... | ... | ... | ... | ... | ... | ... | ... |
 
 ### Overview Data Ratings
 Data ratings terdiri dari 1149780 baris dan 3 kolom. Didalam data ratings.csv terdapat informasi User-ID, ISBN, dan Book-Rating.
@@ -79,7 +78,6 @@ Data ratings terdiri dari 1149780 baris dan 3 kolom. Didalam data ratings.csv te
 | 276727	| 0446520802	| 0 |
 | 276729	| 052165615X	| 3 |
 | 276729	| 0521795028	| 6 |
-| ... | ... | ... |
 
 ### Overview Data Users
 Data users terdiri dari 278858 baris dan 3 kolom. Didalam data users.csv terdapat informasi User-ID,	Location, dan	Age.
@@ -91,7 +89,6 @@ Data users terdiri dari 278858 baris dan 3 kolom. Didalam data users.csv terdapa
 | 3	| moscow, yukon territory, russia	| NaN |
 | 4	| porto, v.n.gaia, portugal	| 17.0 |
 | 5	| farnborough, hants, united kingdom	| NaN |
-| ... | ... | ... |
 
 ## Data Preparation
 Pada tahapan ini, penulis akan melakukan proses transformasi pada data sehingga menjadi bentuk yang cocok dalam proses pemodelan. Terdapat beberapa tahapan yang perlu dilakukan pada data preparation, diantaranya adalah sebagai berikut:
