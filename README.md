@@ -105,7 +105,7 @@ Digunakan untuk menggabungkan informasi rata-rata rating dan jumlah rating yang 
 
 Persamaan weighted rating
 
-![Persamaan weighted rating](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Kedua/blob/7d72cdf934c3d3cf25b01ee4a94cc44c4d04f173/img/persamaan%20weighted%20rating.PNG?raw=true)
+$W=\frac{Rv+Cm}{v+m}$
 
 Keterangan:
 * W : weighted rating
