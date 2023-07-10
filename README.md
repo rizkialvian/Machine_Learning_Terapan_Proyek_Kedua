@@ -29,7 +29,7 @@ Berdasarkan problem statement diatas, penulis menguraikan goals sebagai berikut:
 ### Solution Approach
 Beberapa ringkasan solusi yang dapat penulis lakukan diantaranya adalah sebagai berikut:
 * Pre-processing data, pada tahapan ini akan dilakukan analisis karakteristik dari data books, users, dan ratings sebelum masuk tahap preparation.
-* Preparation data, pada tahapan ini akan dilakukan pemilihan fitur-fitur dari data yang diperlukan, seperti mengisi data kosong pada publisher dan author pada data buku, menghapus data dengan rating 0 pada data rating, dan mengisi missing value menggunakan modus Age pada data user.
+* Preparation data, pada tahapan ini akan dilakukan pemilihan fitur-fitur dari data yang diperlukan, seperti mengisi data kosong pada publisher dan author pada data buku, menghapus data dengan rating 0 pada data rating, dan mengisi missing value menggunakan modus Age pada data user menggunakan method pandas fillna().
 * Solusi yang diberikan bergantung dari hasil rekomendasi yang ingin dicapai.
   * Popularity based recommendation
 
