@@ -132,7 +132,18 @@ Berikut ini adalah hasil rekomendasi dengan menerapkan weighted rating:
 ### Model-Based Collaborative filtering Recommendation
 Dilakukan training data user buku dengan model SVD dari library Surprise yang selanjutnya 10 buku dengan prediksi rating tertinggi akan diurutkan. Berikut ini adalah hasil rekomendasi yang diperoleh:
 
-![Hasil Model-Based Collaborative filtering Recommendation](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Kedua/blob/57ebbe98f85beb65d6756fece18036324e35002b/img/hasil%20model%20based%20collaborative%20filtering%20recommendation.PNG?raw=true)
+| No | ISBN	| Book Title	| Book Author	| Publisher	| Estimate Score |
+| -- | ---- | ---------- | ----------- | --------- | -------------- |
+| 1 | 0345417127	| The Crow: Shattered Lives Broken Dreams	| J. O'Barr	Del Rey Books	| 8.151110 |
+| 2 | 0835911071	| Star Trek Next Generation: Contamination	| John Vornholt	Globe Fearon	| 8.113014 |
+| 3 | 3596148642	| Austerlitz.	| Winfried G. Sebald	Fischer (Tb.), Frankfurt	| 8.100955 |
+| 4 | 8478887121	| LA Nochevieja | De Montalbano (Narrativa)	Andrea Camilleri	Salamandra	| 8.077965 |
+| 5 | 0553443410	| A Prince for Jenny (Loveswept, No 656)	| Peggy Webb	Loveswept	| 8.074810 |
+| 6 | 0373033346	| Sensible Wife (Harlequin Romance, No 3334)	| Jessica Hart	Harlequin |	8.068090 |
+| 7 | 0451114876	| The Mystery of the Black Diamonds	Phyllis | A. Whitney	New Amer Library (Mm)	| 8.062611 |
+| 8 | 1565652061	| The Diabetes Sports and Exercise Book: How to | Claudia Graham	McGraw-Hill	| 8.058640 |
+| 9 | 0373691467	| Heatwave	| Jamie Denton	Harlequin	| 8.051578 |
+| 10 | 0393307921	| Arrogance	| Joanna Scott	Simon Schuster	| 8.051044 |
 
 ## Evaluation
 ### Root Mean Squared Error (RMSE)
