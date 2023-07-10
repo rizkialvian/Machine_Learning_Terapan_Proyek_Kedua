@@ -166,7 +166,7 @@ Keterangan:
 ​* Ai : nilai data aktual ke-i
 * Fi : nilai data peramalan ke-i
 
-### Perolehan RMSE dan MAE
+## Kesimpulan
 Hasil perolehan Root Mean Squared Error (RMSE) dan Mean Absolute Error (MAE) adalah sebagai berikut:
 
 | Nama | Nilai |
@@ -174,7 +174,6 @@ Hasil perolehan Root Mean Squared Error (RMSE) dan Mean Absolute Error (MAE) ada
 | RMSE | 1,2671 |
 | MAE | 1,6387 |
 
-## Kesimpulan
 Dari tahapan-tahapan yang sudah dilakukan sebelumnya, diperoleh nilai rata-rata RMSE sebesar 1,2671 dan nilai rata-rata MAE sebesar 1,6387. Sehingga dapat disimpulkan bahwa model ini nilai error cukup kecil, yang berarti model tersebut dapat dikatakan baik. Hal ini dibuktikan juga dengan hasil rekomendasi buku yang cukup baik dan sesuai kategori.
 
 ## Referensi
