@@ -149,7 +149,7 @@ Dilakukan training data user buku dengan model SVD dari library Surprise yang se
 ### Root Mean Squared Error (RMSE)
 Root Mean Square Error adalah  metode pengukuran dengan mengukur perbedaan nilai dari prediksi sebuah model sebagai estimasi atas nilai yang diobservasi. Keakuratan metode estimasi kesalahan pengukuran ditandai dengan adanya nilai RMSE yang kecil. Metode estimasi yang mempunyai Root Mean Square Error (RMSE) lebih kecil dikatakan lebih akurat daripada metode estimasi yang mempunyai Root Mean Square Error (RMSE) lebih besar
 
-$RMSE=\sqrt{\frac{\sum_{t=1}^{n}(Ai+Fi)^2}{n}}$
+$RMSE=\sqrt{\frac{\sum_{i=1}^{n}(Ai+Fi)^2}{n}}$
 
 Keterangan:
 * n : ukuran sampel
@@ -159,7 +159,7 @@ Keterangan:
 ### Mean Absolute Error (MAE)
 Mean Absolute Error adalah rata-rata selisih mutlak nilai aktual dengan nilai prediksi. MAE digunakan untuk mengukur keakuratan suatu model statistik dalam melakukan prediksi.
 
-![MAE](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Kedua/blob/a05eef0ba5ef675c1905b464894ef64b73b780be/img/mae.PNG?raw=true)
+$MAE=\frac{1}{n}\sum_{i=1}^{n}\left | Ai-Fi \right |$
 
 Keterangan:
 * n : ukuran sampel
