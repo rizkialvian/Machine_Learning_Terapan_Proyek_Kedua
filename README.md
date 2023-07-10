@@ -1,3 +1,5 @@
+$\frac{a}{b}$
+
 # Laporan Proyek Machine Learning - Rizki Alvian
 
 ## Sistem Rekomendasi Buku Berdasarkan Preferensi dan Rating Pengguna
